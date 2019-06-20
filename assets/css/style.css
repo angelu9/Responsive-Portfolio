@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url(/users/angelmartinez/responsive-portfolio/basic-portfolio/assets/images/papyrus.png);
+    background: url(/Users/angelmartinez/Responsive-Portfolio/assets/images/papyrus.png); 
   }
   
   * {
@@ -226,14 +226,39 @@ body {
     }
   }
 
+ 
   @media screen and (max-width: 760px) {
+    #main-container {
+      width: 90%;
+    
+    }
+    nav {
+     margin-right: 70px; 
+    
+    }
+
+    #logo {
+      margin-left:20px;
+    }
+
 
   }
+
 
 
   @media screen and (max-width: 640px) {
+    #logo {
+      margin-top: 40px;
+      width: 563px;
+    }
+    nav a {
+      width: 150px;
 
+    }
   }
+
+
+  
 
 
   
